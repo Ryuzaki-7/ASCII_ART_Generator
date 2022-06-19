@@ -5,7 +5,7 @@ This project can be used to generate ASCII art of image aur video files.
 
 ## How to use?
 1. Clone the repository on your local system.
-    ![step1](Media/1.png)
+    ![step1](Media/step1.png)
 3. Dependencies
     - ```OpenCV``` 
     - ```Numpy```
@@ -14,11 +14,14 @@ This project can be used to generate ASCII art of image aur video files.
     - ```PIL```
 4. Open terminal and change the location to the directory where you cloned the repository.
 6. Enter ```python ascii.py``` to run the code.
-    ![step2](Media/2.png)
+    ![step2](Media/step2.png)
+    
 8. Enter the full path of your file(video/image) to generate ASCII art.
-    ![step3](Media/3.png)
+    ![step3](Media/step3.png)
+    
 10. Select the background color(White/Black).
-    ![step4](Media/4.png)
+    ![step4](Media/step4.png)
+    
 12. It will take some time to generate ASCII art and the output will be saved in cloned directory.
 
 ## Working
@@ -44,10 +47,12 @@ This project can be used to generate ASCII art of image aur video files.
 ### For video input:
 
 1. We will create a temporary folder using ```OS``` library.
-    ![step6](Media/6.png)
+    ![step6](Media/step6.png)
+    
 3. Using ```VideoCapture``` package from OpenCV we will access each frame and save it to our temporary folder.
 4. After saving the frame we will convert it to ASCII art as explained above and replace the frame with ASCII iimage in the temporary folder.
-    ![step5](Media/5.png)
+    ![step5](Media/step5.png)
+    
 6. After all frames are converted to ASCII images we will select height, width and FPS and output format for our output video.
 7. Using the ```VideoWriter``` package we will join all images to form a video and save the video to specified path.
 8. Then delete the temporary folder created with all its contents using ```shutil``` library.
