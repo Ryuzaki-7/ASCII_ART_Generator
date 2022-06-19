@@ -163,9 +163,8 @@ def v2a(user_input):
     cv2.destroyAllWindows()
 
     if __name__=='__main__':
-        output_vid_dir = '/home/ryuzaki/ACM2/'
         #PATH
-        input_frame_path = "/home/ryuzaki/ACM2/Video_to_Photo/"
+        input_frame_path = "./Video_to_Photo/"
         img_list = os.listdir(input_frame_path)
         frame = cv2.imread(os.path.join(input_frame_path,'frame0.jpg'))
         height, width, channels = frame.shape
