@@ -48,10 +48,10 @@ This project can be used to generate ASCII art of image aur video files.
 
 - For Image 
     - Input
-        - ![input1](Media/input1.jpg)
+      ![input1](Media/input1.jpg)
     
     - Output
-        - ![demo1](Media/demo1.jpg)
+      ![demo1](Media/demo1.jpg)
 
 - For Video
     - Input
