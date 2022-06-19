@@ -24,15 +24,15 @@ This project can be used to generate ASCII art of image aur video files.
 2. Then calculate height and width of each pixel using the scale factor and no. of cols.
 3. Calculate the output width and height using no. of cols, no. of rows and size of ASCII characters.
 
-    ![Code1](Images/Code1.png)
+    ![Code1](Media/Code1.png)
 
 4. Then we will use ```Image``` package of PIL to create an RGB output with given output height, width and background color.
 5. We will use ```ImageDraw``` which will act as our paint brush to draw strings at given position.
 
-    ![Code2](Images/Code2.png)
+    ![Code2](Media/Code2.png)
 6. We will calculate how many pixels of input image merge to form 1 pixel of output image and use the average color of all those pixels to assign a particular RGB value to output pixel.
  
-    ![Code3](Images/Code3.png)
+    ![Code3](Media/Code3.png)
 
 7. Finally invert the image and remove excess borders using ```getbbox()``` and save the output image by providing a location.
 
