@@ -47,10 +47,18 @@ This project can be used to generate ASCII art of image aur video files.
 ## Demo
 
 - For Image 
-    - ![demo1](demo1.jpg)
+    - Input
+        - ![input1](Media/input1.jpg)
+    
+    - Output
+        - ![demo1](Media/demo1.jpg)
 
 - For Video
-    - ![demo2](demo2.mp4)
+    - Input
+        - ![input2](Media/input2.mp4)
+    
+    - Output
+        - ![demo2](Media/demo2.mp4)
 ## References
 
 1. https://medium.com/analytics-vidhya/the-ultimate-handbook-for-opencv-pillow-72b7eff77cd7
