@@ -18,6 +18,8 @@ This project can be used to generate ASCII art of image aur video files.
     
 8. Enter the full path of your file(video/image) to generate ASCII art.
     ![step3](Media/step3.png)
+
+9. Please note that for image input format should pe ```.jpg``` and for video input it should be ```.mp4```.
     
 10. Select the background color(White/Black).
     ![step4](Media/step4.png)
