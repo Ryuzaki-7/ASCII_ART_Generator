@@ -24,6 +24,8 @@ This project can be used to generate ASCII art of image aur video files.
     
 12. It will take some time to generate ASCII art and the output will be saved in cloned directory.
 
+13. Here is the [Link](https://drive.google.com/file/d/1cnwS2pfw0V4ax7UvwjEpEPfqrxOwDvMt/view?usp=sharing) of video of instructions explained above.
+
 ## Working
 ### For image input: 
 
