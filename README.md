@@ -71,7 +71,7 @@ This project can be used to generate ASCII art of image aur video files.
 
 - For Video
 
-    [Input and Output](https://drive.google.com/drive/u/1/folders/1bJTq8nAEfh2IWmnZLv21fvdFZmq0DgKL/)
+    [Input](https://drive.google.com/file/d/1mxwbBBLmyw5Nb3_ak7tPenM7T-kWWz5u/view?usp=sharing) and [Output](https://drive.google.com/file/d/1D8nFsnhBNOYZiUtADGuWR2Dn2nm6oJM7/view?usp=sharing)
 ## References
 
 1. https://medium.com/analytics-vidhya/the-ultimate-handbook-for-opencv-pillow-72b7eff77cd7
